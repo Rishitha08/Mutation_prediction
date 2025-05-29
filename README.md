@@ -30,6 +30,7 @@ Genetic mutations can influence the fitness of genes, affecting processes like c
 - Mean Absolute Error (MAE)
 - Mean Squared Error (MSE)
 - R² Score
+Random Forest: Random forest is a supervised learning algorithm. It is a classification algorithm that consists of several decision trees. When constructing, each particular tree in the forest makes a class prescience and the class with the maximum votes becomes the prediction of our model. The count vectors obtained from the sparse matrix are fitted and test scores are calculated by tuning the various parameters to achieve the optimum performance of the model. The average accuracy score for this model is coming out to be 49%. We used the RandomForestClassifier function for the Model. Also, we have used the calibrated classifier that predicts the class probabilities rather than the absolute values along with the sigmoid activation function. Predicting probabilities provides better ways to evaluate the model. We identified the best alpha value and predicted the class using it. We used the Log Loss (Logarithmic Loss) as a performance measurement function. In Log Loss the prediction output is a probability value between 0 and 1.
 
 
 ## Model Results:
