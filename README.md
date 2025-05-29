@@ -71,7 +71,7 @@ RandomForestRegressor(
 
 ---
 
-## 📊 Model Performance
+##  Model Performance
 
 | Metric | Value  |
 | ------ | ------ |
